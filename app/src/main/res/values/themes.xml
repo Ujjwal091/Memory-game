@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MemoryGame" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/secondary_background</item>
+        <!-- set the background color of whole application -->
+        <item name="android:windowBackground">@color/primary_background</item>
+        <!-- set the color of back button in the toolbar  -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>
